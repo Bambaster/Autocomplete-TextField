@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E74388331993B09C009362FF /* popoverViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74388321993B09C009362FF /* popoverViewController.m */; };
+		E74388361993CB8F009362FF /* autocompleteFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E74388351993CB8F009362FF /* autocompleteFieldViewController.m */; };
 		E75D92F5199392D500543BCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75D92F4199392D500543BCB /* Foundation.framework */; };
 		E75D92F7199392D500543BCB /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75D92F6199392D500543BCB /* CoreGraphics.framework */; };
 		E75D92F9199392D500543BCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75D92F8199392D500543BCB /* UIKit.framework */; };
@@ -15,13 +17,15 @@
 		E75D9305199392D500543BCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D9304199392D500543BCB /* AppDelegate.m */; };
 		E75D9308199392D500543BCB /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75D9306199392D500543BCB /* Main_iPhone.storyboard */; };
 		E75D930B199392D500543BCB /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E75D9309199392D500543BCB /* Main_iPad.storyboard */; };
-		E75D930E199392D500543BCB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D930D199392D500543BCB /* ViewController.m */; };
+		E75D930E199392D500543BCB /* demoPlaceholderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D930D199392D500543BCB /* demoPlaceholderViewController.m */; };
 		E75D9310199392D500543BCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E75D930F199392D500543BCB /* Images.xcassets */; };
 		E75D9317199392D500543BCB /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75D9316199392D500543BCB /* XCTest.framework */; };
 		E75D9318199392D600543BCB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75D92F4199392D500543BCB /* Foundation.framework */; };
 		E75D9319199392D600543BCB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E75D92F8199392D500543BCB /* UIKit.framework */; };
 		E75D9321199392D600543BCB /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E75D931F199392D600543BCB /* InfoPlist.strings */; };
 		E75D9323199392D600543BCB /* Autocomplete_TextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D9322199392D600543BCB /* Autocomplete_TextFieldTests.m */; };
+		E75D932F1993938800543BCB /* UIPopoverController+iPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D932E1993938800543BCB /* UIPopoverController+iPhone.m */; };
+		E75D93341993988200543BCB /* PlaceHolderAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = E75D93331993988200543BCB /* PlaceHolderAnimations.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E74388311993B09C009362FF /* popoverViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = popoverViewController.h; sourceTree = "<group>"; };
+		E74388321993B09C009362FF /* popoverViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = popoverViewController.m; sourceTree = "<group>"; };
+		E74388341993CB8F009362FF /* autocompleteFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = autocompleteFieldViewController.h; sourceTree = "<group>"; };
+		E74388351993CB8F009362FF /* autocompleteFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = autocompleteFieldViewController.m; sourceTree = "<group>"; };
 		E75D92F1199392D500543BCB /* Autocomplete TextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Autocomplete TextField.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75D92F4199392D500543BCB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		E75D92F6199392D500543BCB /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -47,14 +55,18 @@
 		E75D9304199392D500543BCB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		E75D9307199392D500543BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		E75D930A199392D500543BCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		E75D930C199392D500543BCB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		E75D930D199392D500543BCB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E75D930C199392D500543BCB /* demoPlaceholderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = demoPlaceholderViewController.h; sourceTree = "<group>"; };
+		E75D930D199392D500543BCB /* demoPlaceholderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = demoPlaceholderViewController.m; sourceTree = "<group>"; };
 		E75D930F199392D500543BCB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E75D9315199392D500543BCB /* Autocomplete TextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Autocomplete TextFieldTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E75D9316199392D500543BCB /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		E75D931E199392D600543BCB /* Autocomplete TextFieldTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Autocomplete TextFieldTests-Info.plist"; sourceTree = "<group>"; };
 		E75D9320199392D600543BCB /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E75D9322199392D600543BCB /* Autocomplete_TextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Autocomplete_TextFieldTests.m; sourceTree = "<group>"; };
+		E75D932D1993938800543BCB /* UIPopoverController+iPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIPopoverController+iPhone.h"; sourceTree = "<group>"; };
+		E75D932E1993938800543BCB /* UIPopoverController+iPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIPopoverController+iPhone.m"; sourceTree = "<group>"; };
+		E75D93321993988200543BCB /* PlaceHolderAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlaceHolderAnimations.h; sourceTree = "<group>"; };
+		E75D93331993988200543BCB /* PlaceHolderAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlaceHolderAnimations.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +96,9 @@
 		E75D92E8199392D500543BCB = {
 			isa = PBXGroup;
 			children = (
+				E75D93311993984C00543BCB /* PlaceHolder */,
+				E75D9330199393A500543BCB /* Popover View */,
+				E75D932C1993937B00543BCB /* Popover */,
 				E75D92FA199392D500543BCB /* Autocomplete TextField */,
 				E75D931C199392D600543BCB /* Autocomplete TextFieldTests */,
 				E75D92F3199392D500543BCB /* Frameworks */,
@@ -118,10 +133,12 @@
 				E75D9304199392D500543BCB /* AppDelegate.m */,
 				E75D9306199392D500543BCB /* Main_iPhone.storyboard */,
 				E75D9309199392D500543BCB /* Main_iPad.storyboard */,
-				E75D930C199392D500543BCB /* ViewController.h */,
-				E75D930D199392D500543BCB /* ViewController.m */,
+				E75D930C199392D500543BCB /* demoPlaceholderViewController.h */,
+				E75D930D199392D500543BCB /* demoPlaceholderViewController.m */,
 				E75D930F199392D500543BCB /* Images.xcassets */,
 				E75D92FB199392D500543BCB /* Supporting Files */,
+				E74388341993CB8F009362FF /* autocompleteFieldViewController.h */,
+				E74388351993CB8F009362FF /* autocompleteFieldViewController.m */,
 			);
 			path = "Autocomplete TextField";
 			sourceTree = "<group>";
@@ -153,6 +170,33 @@
 				E75D931F199392D600543BCB /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E75D932C1993937B00543BCB /* Popover */ = {
+			isa = PBXGroup;
+			children = (
+				E75D932D1993938800543BCB /* UIPopoverController+iPhone.h */,
+				E75D932E1993938800543BCB /* UIPopoverController+iPhone.m */,
+			);
+			name = Popover;
+			sourceTree = "<group>";
+		};
+		E75D9330199393A500543BCB /* Popover View */ = {
+			isa = PBXGroup;
+			children = (
+				E74388311993B09C009362FF /* popoverViewController.h */,
+				E74388321993B09C009362FF /* popoverViewController.m */,
+			);
+			name = "Popover View";
+			sourceTree = "<group>";
+		};
+		E75D93311993984C00543BCB /* PlaceHolder */ = {
+			isa = PBXGroup;
+			children = (
+				E75D93321993988200543BCB /* PlaceHolderAnimations.h */,
+				E75D93331993988200543BCB /* PlaceHolderAnimations.m */,
+			);
+			name = PlaceHolder;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -253,8 +297,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E75D930E199392D500543BCB /* ViewController.m in Sources */,
+				E75D930E199392D500543BCB /* demoPlaceholderViewController.m in Sources */,
 				E75D9305199392D500543BCB /* AppDelegate.m in Sources */,
+				E75D932F1993938800543BCB /* UIPopoverController+iPhone.m in Sources */,
+				E75D93341993988200543BCB /* PlaceHolderAnimations.m in Sources */,
+				E74388361993CB8F009362FF /* autocompleteFieldViewController.m in Sources */,
+				E74388331993B09C009362FF /* popoverViewController.m in Sources */,
 				E75D9301199392D500543BCB /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,6 +441,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Autocomplete TextField/Autocomplete TextField-Prefix.pch";
 				INFOPLIST_FILE = "Autocomplete TextField/Autocomplete TextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -406,6 +455,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Autocomplete TextField/Autocomplete TextField-Prefix.pch";
 				INFOPLIST_FILE = "Autocomplete TextField/Autocomplete TextField-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -470,6 +520,7 @@
 				E75D9328199392D600543BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E75D9329199392D600543BCB /* Build configuration list for PBXNativeTarget "Autocomplete TextFieldTests" */ = {
 			isa = XCConfigurationList;
@@ -478,6 +529,7 @@
 				E75D932B199392D600543BCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
