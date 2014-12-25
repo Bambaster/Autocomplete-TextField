@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>2D1B1FD1-C7F3-418A-BA81-C88580006136</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Autocomplete TextField</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>E3A420443DDAB49CC4B749E20EBC2F05840AF5C3</key>
+		<string>https://github.com/Bambaster/Autocomplete-TextField.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Autocomplete TextField.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>E3A420443DDAB49CC4B749E20EBC2F05840AF5C3</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/Bambaster/Autocomplete-TextField.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>E3A420443DDAB49CC4B749E20EBC2F05840AF5C3</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>E3A420443DDAB49CC4B749E20EBC2F05840AF5C3</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Autocomplete%20TextField</string>
+		</dict>
+	</array>
+</dict>
+</plist>
